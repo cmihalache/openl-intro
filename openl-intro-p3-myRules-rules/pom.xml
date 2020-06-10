@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>presentations</groupId>
+		<artifactId>openl-intro</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>openl-intro-p3-myRules-rules</artifactId>
+	<packaging>openl</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>presentations</groupId>
+			<artifactId>openl-intro-p2-myRules-model</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>openl-intro-myRules-rules</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.openl.rules</groupId>
+				<artifactId>openl-maven-plugin</artifactId>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

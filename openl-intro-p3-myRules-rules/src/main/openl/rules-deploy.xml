@@ -1,0 +1,10 @@
+<rules-deploy>
+    <isProvideRuntimeContext>false</isProvideRuntimeContext>
+    <isProvideVariations>false</isProvideVariations>
+    <serviceName>openl-intro-rules</serviceName>
+    <serviceClass>intro.openl.myrules.model.MyRules</serviceClass>
+    <publishers>
+        <publisher>RESTFUL</publisher>
+    </publishers>
+    <url>openl-intro-rules</url>
+</rules-deploy>

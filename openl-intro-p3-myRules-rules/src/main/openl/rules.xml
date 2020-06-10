@@ -1,0 +1,14 @@
+<project>
+    <name>openl-intro-rules</name>
+    <modules>
+        <module>
+            <name>module1</name>
+            <type>api</type>
+            <classname>module1</classname>
+            <rules-root path="rules/Module1.xlsx"/>
+        </module>
+    </modules>
+    <classpath>
+        <entry path="lib/*.jar"/>
+    </classpath>
+</project>
